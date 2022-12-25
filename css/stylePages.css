@@ -1,0 +1,28 @@
+::selection{
+  background-color: rgb(183, 0, 255);  
+  color: white; 
+}
+body {
+  min-width: 313px;
+}
+header nav .logo {
+    width: 150px;
+}
+aside article .card img {
+  width:100% ;
+  height:350px;
+}
+aside article img {
+  transition: .8s;
+}
+aside article:hover img {
+  transform: scale(.8);
+}
+.navmenu:hover {
+  color: #9aff73 !important;
+}
+section article .card img {
+  width:310px ;
+  height:450px;
+}
+
